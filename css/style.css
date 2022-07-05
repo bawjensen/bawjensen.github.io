@@ -10,11 +10,11 @@ a {
   color: inherit;
   text-decoration: none;
   opacity: 0.8;
-  -webkit-transition: 0.25s linear all;
-  -moz-transition: 0.25s linear all;
-  -ms-transition: 0.25s linear all;
-  -o-transition: 0.25s linear all;
-  transition: 0.25s linear all;
+  -webkit-transition: 0.25s linear opacity;
+  -moz-transition: 0.25s linear opacity;
+  -ms-transition: 0.25s linear opacity;
+  -o-transition: 0.25s linear opacity;
+  transition: 0.25s linear opacity;
 }
 a:hover {
   opacity: 1.0;
@@ -50,52 +50,4 @@ a:focus {
   display: inline-block;
   padding: 10px 40px;
   font-size: 20px;
-}
-#back-home-container {
-  text-align: center;
-}
-#portfolio-description {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-#portfolio-sidebar {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-#portfolio-sidebar ul {
-  list-style: none;
-  padding: 0;
-}
-#portfolio-sidebar ul#portfolio-category-list li.category-item {
-  padding: 5px 0;
-  cursor: pointer;
-  font-size: 2rem;
-}
-#portfolio-sidebar ul#portfolio-category-list li.category-item ul.portfolio-category-list {
-  margin-left: 20px;
-}
-#portfolio-sidebar ul#portfolio-category-list li.category-item ul.portfolio-category-list li.entry-item {
-  font-size: 1.5rem;
-}
-#portfolio-sidebar ul#portfolio-category-list li.category-item ul.portfolio-category-list li.entry-item .entry-link {
-  margin-left: 5px;
-}
-#portfolio-detail {
-  margin-bottom: 100px;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  min-height: 80vh;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-#portfolio-detail #entry-label {
-  display: inline;
-}
-#portfolio-detail #entry-link {
-  font-size: 25px;
-  margin-left: 15px;
-}
-#portfolio-detail p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-#portfolio-detail img {
-  width: 100%;
 }
