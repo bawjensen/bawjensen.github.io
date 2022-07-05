@@ -54,17 +54,6 @@ a:focus {
 #back-home-container {
   text-align: center;
 }
-#resume-title {
-  text-align: center;
-}
-#resume-title a {
-  font-size: 20px;
-  margin-left: 15px;
-}
-#resume-preview {
-  width: 100%;
-  height: 100vh;
-}
 #portfolio-description {
   background-color: rgba(0, 0, 0, 0.5);
 }

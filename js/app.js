@@ -60,12 +60,6 @@ angular.module('personalSite', [
     })
 
 
-    .state('not-home.resume', {
-      url: '/resume',
-      templateUrl: 'partials/resume.html'
-    })
-
-
     .state('not-home.portfolio', {
       url: '/portfolio',
       templateUrl: 'partials/portfolio.html',

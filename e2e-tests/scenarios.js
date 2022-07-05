@@ -73,20 +73,4 @@ describe('personal site', function() {
       });
     });
   });
-
-
-  // ---------------------------------- Testing Resume ----------------------------------
-
-
-  describe('resume', function() {
-    beforeEach(function() {
-      browser.get('/#/resume');
-    });
-
-    it('should load the resume page', function() {
-      expect(browser.getLocationAbsUrl()).toMatch(/resume/);
-
-      expect(element(by.id('resume-preview')).isPresent()).toBe(true);
-    });
-  });
 });
