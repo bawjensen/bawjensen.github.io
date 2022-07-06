@@ -1,0 +1,22 @@
+.nameContainer {
+    padding-top: 20vh;
+}
+
+.backLink {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 12px 24px;
+    max-width: 800px;
+    margin-top: 20vh;
+}
+
+.textSection {
+    margin: 8px 0;
+}

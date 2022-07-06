@@ -1,4 +1,8 @@
+import Link from "next/link";
+
+import PageBase from "../components/page-base";
 import ExternalLinkIcon from "../components/external-link-icon";
+import Name from "../components/name";
 
 import styles from "./index.module.css";
 
@@ -8,13 +12,17 @@ function ExternalLinkIconStyled() {
 
 export default function Home() {
     return (
-        <div className={styles.baseContainer}>
+        <PageBase>
             <div className={styles.homepageContainer}>
-                <div className={styles.name}>
-                    Bryan Alexander William Jensen
-                </div>
+                <Name />
 
                 <ul className={styles.links}>
+                    <li className={styles.linkEntry}>
+                        <Link href="/about">
+                            <a className={styles.link}>About</a>
+                        </Link>
+                    </li>
+
                     <li className={styles.linkEntry}>
                         <a
                             className={styles.link}
@@ -40,6 +48,6 @@ export default function Home() {
                     </li>
                 </ul>
             </div>
-        </div>
+        </PageBase>
     );
 }

@@ -1,0 +1,6 @@
+.pageBaseContainer {
+    background-image: url("/images/site-background.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
